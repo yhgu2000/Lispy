@@ -1,0 +1,29 @@
+#pragma once
+
+#include "utils.hpp"
+
+namespace lispy::number {
+
+LISPY_DEC_STATIC_FUNCO(Add);
+
+LISPY_DEC_STATIC_FUNCO(Sub);
+
+LISPY_DEC_STATIC_FUNCO(Mul);
+
+LISPY_DEC_STATIC_FUNCO(Div);
+
+LISPY_DEC_STATIC_FUNCO(Mod);
+
+LISPY_DEC_STATIC_FUNCO(Fdv); // 整除（向下取整）
+
+LISPY_DEC_STATIC_FUNCO(Pow); // 幂
+
+LISPY_DEC_STATIC_FUNCO(Gt);
+
+LISPY_DEC_STATIC_FUNCO(Ge);
+
+LISPY_DEC_STATIC_FUNCO(Lt);
+
+LISPY_DEC_STATIC_FUNCO(Le);
+
+}
