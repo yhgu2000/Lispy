@@ -1,0 +1,21 @@
+# 冒泡排序
+
+(; "e" e
+  (= "bubble" (`` "args"
+    (= "vec" (vector-get args 0) "i" (vector-size vec))
+
+    (; ! vec (:
+      (? (== i 0) (,))
+      (= "j" 1)
+      (; ! ! (:
+        (? (== j i) (,))
+        (= "a" (vector-get vec (- j 1)) "b" (vector-get vec j))
+        (? (> a b) (vector-set vec (- j 1) b j a))
+        (= "j" (+ j 1))
+      ))
+      (= "i" (- i 1))
+    ))
+  ))
+
+  (bubble (>>> !))
+)
